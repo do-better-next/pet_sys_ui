@@ -1,7 +1,7 @@
 <template>
   <div class="wrapper">
-    <div style="height: 60px; line-height: 60px; font-size: 20px; padding-left: 50px; color: white;
-      background-color: rgba(0,0,0,0.2)">管理系统</div>
+    <div style="height: 60px; line-height: 60px; font-size: 20px; padding-left:  50px; font-weight: bold;  color: #fff; 
+      background: linear-gradient(to bottom right, #757F9A , #D7DDE8)">流浪动物管理系统</div>
     <div style="margin: 150px auto; background-color: #fff; width: 350px; height: 300px; padding: 20px; border-radius: 10px">
       <div style="margin: 20px 0; text-align: center; font-size: 24px"><b>登 录</b></div>
       <el-form :model="user" :rules="rules" ref="userForm">
@@ -107,7 +107,7 @@ export default {
 <style>
 .wrapper {
   height: 100vh;
-  background-image: linear-gradient(to bottom right, #4169E1 , 	#87CEFA);
+  background-image: linear-gradient(to bottom right, #ddd6f3 , 	#faaca8);
   overflow: hidden;
 }
 </style>
